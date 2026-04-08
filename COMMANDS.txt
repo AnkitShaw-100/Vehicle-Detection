@@ -1,0 +1,14 @@
+PROJECT STARTUP COMMANDS
+========================
+
+1. ACTIVATE VIRTUAL ENVIRONMENT
+   & ".\.venv\Scripts\Activate.ps1"
+
+2. RUN OBJECT DETECTION ON VIDEO1
+   python run_detect_objects.py --video "C:\Users\Ankit\Desktop\video1.mp4" --show
+
+3. SAVE RESULTS TO CSV (automatic, saved to outputs/detections.csv)
+
+QUICK START (One Command):
+==========================
+& ".\.venv\Scripts\Activate.ps1"; python run_detect_objects.py --video "C:\Users\Ankit\Desktop\video1.mp4" --show
